@@ -17,7 +17,7 @@
   --buttonColor: #2a2c30;
   --secondaryColor: #4b4f56;
   --borderColor: #e3eaf0;
-  --backgroundColor: #FEF9D9;
+  --backgroundColor: #f7f7f7;
   --backgroundSecondary: #fefefe;
   --textColor: #1e1f23;
   --anchorColor: #DEE5D4;
@@ -72,11 +72,16 @@ li {
 }
 
 a {
-  color: #646cff;
+  color: #83bfff;
   text-decoration: none;
   &:hover {
     color: #535bf2;
   }
+}
+
+.logo{
+  font-weight: bold;
+  font-size: 20px;
 }
 
 ::placeholder {
@@ -295,7 +300,7 @@ main {
   );
 }
 
-.custom-shape-divider-bottom-1696038172 {
+/* .custom-shape-divider-bottom-1720071068 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -305,16 +310,16 @@ main {
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1696038172 svg {
+.custom-shape-divider-bottom-1720071068 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
   height: 12rem;
 }
 
-.custom-shape-divider-bottom-1696038172 .shape-fill {
-  fill: #ffffff;
-}
+.custom-shape-divider-bottom-1720071068 .shape-fill {
+  fill: #FFFFFF;
+} */
 
 main .section-hero {
   height: 90vh;
