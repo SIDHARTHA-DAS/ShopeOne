@@ -46,7 +46,7 @@
       box-sizing: border-box;
     }
 
-    button {
+    .button {
       background-color: #008CBA;
       color: white;
       padding: 12px 20px;
@@ -56,9 +56,17 @@
       cursor: pointer;
     }
 
-    button:hover {
+    .button:hover {
       background-color: #00678e;
     }
+
+    .sign{
+      margin: 20px;
+    }
+
+    .sign a{
+            text-decoration: none;
+        }
 
     .forgot-password {
       margin-top: 10px;
@@ -91,14 +99,17 @@
 
       <label for="password">Password</label>
       <input type="password" id="password" name="password" placeholder="********">
-
-      <button type="submit">Sign In</button>
+      <div class="sign">
+        <a class="button" href="index.html">Sign In
+          <a/>
+        </div>
+        <!-- <button type="submit">Sign In</button> -->
     </form>
     <div class="forgot-password">
       <a href="#">Forgot password?</a>
     </div>
     <div class="signup">
-      Don't have an account? <a href="/signUp.html">Sign up</a>
+      Don't have an account? <a href="signUp.html">Sign up</a>
     </div>
   </div>
 </body>
